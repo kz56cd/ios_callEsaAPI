@@ -17,5 +17,22 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+//    func esaApiTest() {
+//        Alamofire
+//            .request(.GET, DUMMUY_URL ,parameters: nil)
+//            .response {request, response, data, error in
+//                println("API : " + request.URLString)
+//                if error != nil {
+//                    println("error : \(error)")
+//                } else { // 正常レスポンス
+//                    if let data: AnyObject = data {
+//                        self.parseXML(data: data)
+//                    } else {
+//                        println("error : missing data.")
+//                    }
+//                }
+//        }
+//    }
 }
 
