@@ -1,0 +1,6 @@
+framework module Pods_esaAPI01 {
+  umbrella header "Pods-esaAPI01-umbrella.h"
+
+  export *
+  module * { export * }
+}
